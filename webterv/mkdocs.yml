@@ -1,0 +1,53 @@
+site_name: 'Webtervezés jegyzet'
+theme:
+    name: 'material'
+    palette:
+        primary: green
+        accent: light green
+    font:
+        text: 'Ubuntu'
+        code: 'Ubuntu Mono'
+    language: 'hu'
+    features:
+        - tabs
+    icon:
+        logo: material/school
+nav:
+    - 'Kezdőlap': index.md
+    #- 'Féléves menetrend': menetrend.md
+    - 'Gyakorlat':
+        - 'Követelmények': gyakorlat/kovetelmenyek.md
+        - '1. gyakorlat': gyakorlat/gyak1.md
+        - '2. gyakorlat': gyakorlat/gyak2.md
+        - '3. gyakorlat': gyakorlat/gyak3.md
+        - '4. gyakorlat': gyakorlat/gyak4.md
+        - "5. gyakorlat": gyakorlat/gyak5.md
+        - "6. gyakorlat": gyakorlat/gyak6.md
+        - "7. gyakorlat": gyakorlat/gyak7.md
+        - "8. gyakorlat": gyakorlat/gyak8.md
+        - "9. gyakorlat": gyakorlat/gyak9.md
+        - "10. gyakorlat": gyakorlat/gyak10.md
+        - "11. gyakorlat": gyakorlat/gyak11.md
+        - "12. gyakorlat": gyakorlat/gyak12.md
+copyright: 'Copyright &copy; 2020 Szegedi Tudományegyetem, Informatikai Intézet, Szoftverfejlesztés Tanszék'
+plugins:
+    - search
+    - git-revision-date-localized:
+        type: iso_datetime
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.magiclink
+    - codehilite:
+        guess_lang: false
+        linenums: true
+    - toc:
+        permalink: true
+    - markdown_include.include:
+        base_path: docs
+        extensions:
+            py: python
+            js: javascript
+            c: c
+extra_css:
+    - css/extra.css

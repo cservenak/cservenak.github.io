@@ -1,0 +1,4 @@
+# 12. gyakorlat
+
+TODO
+

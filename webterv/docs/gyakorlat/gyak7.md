@@ -1,0 +1,4 @@
+# 7. gyakorlat
+
+TODO
+

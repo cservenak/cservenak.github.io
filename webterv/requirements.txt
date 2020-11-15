@@ -1,0 +1,5 @@
+mkdocs==1.1.2
+mkdocs-git-revision-date-localized-plugin==0.6
+mkdocs-material==5.4.0
+mkdocs-material-extensions==1.0
+-e git+https://github.com/gaborantal/markdown-include.git@6810883456fc91541aaa1a6712e66f342a812754#egg=markdown_include
